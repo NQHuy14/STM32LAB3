@@ -118,6 +118,7 @@ void fsm_manual(){
 						cursorForsaveValue[2]=0;
 
 						}
+				setTimer3(50);
 
 
 
