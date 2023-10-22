@@ -57,7 +57,7 @@ void fsm_automatic_run(){
 		if(isButton1Pressed()==1){
 		   BTOneTimes++;
 		   if(BTOneTimes>=5){
-			  BTOneTimes=0;
+			  BTOneTimes=1;
 		   }
 
 		}

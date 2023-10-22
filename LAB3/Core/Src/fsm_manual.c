@@ -9,7 +9,7 @@ void fsm_manual(){
 	if(isButton1Pressed()==1){
 		BTOneTimes++;
 		if(BTOneTimes>=5){
-			BTOneTimes=0;
+			BTOneTimes=1;
 		}
 	}
 
@@ -105,7 +105,7 @@ void fsm_manual(){
 		    	 saveOldvalue[2]=0;
 		     }
 
-				if(BTOneTimes==0){
+				if(BTOneTimes==1){
 					status=GREENNS;
 					setTimer1(fsmTraffic[1]*100);
 					cursorFirstTime=1;
@@ -119,9 +119,6 @@ void fsm_manual(){
 
 						}
 				setTimer3(50);
-
-
-
 			}
 			break;
 //		case INCREASE_RED:
