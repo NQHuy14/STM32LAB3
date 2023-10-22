@@ -10,7 +10,7 @@ int button_flag[3]={0,0,0};
 int keyReg[12]={NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,NORMAL_STATE,
 		NORMAL_STATE};
 int timerForKeyPress[3]={200,200,200};
-int isButtonPressed(){
+int isButton1Pressed(){
 	if(button_flag[0]==1){
 		button_flag[0]=0;
 		return 1;

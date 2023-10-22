@@ -41,7 +41,7 @@ extern int jumpState;
 
 extern int status;
 
-extern int cursorForsaveValue;
-extern int cursorForPressedButtonT;
-extern int saveOldvalue;
+extern int cursorForsaveValue[3];
+extern int saveOldvalue[3];
+void recalculateFSM(int i);
 #endif /* INC_GLOBAL_H_ */
